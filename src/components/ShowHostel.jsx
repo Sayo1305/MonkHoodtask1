@@ -9,7 +9,10 @@ const ShowHostel = () => {
       <div className='flex md:w-1/2 w-full mx-auto my-0 p-7 justify-between gap-3'>
       {
             data_house[0].showcase.map((val , idx) =>(
-                  <Card1compo data={val} key={idx}/>
+              <div  key={idx}>
+                <Card1compo data={val}/>
+              </div>
+                  
             ))
       }
       </div>
@@ -17,7 +20,8 @@ const ShowHostel = () => {
       <div className='flex flex-col gap-3 p-7'>
         {
           data_house[1].top_search.map((val , idx) => (
-            <Card2compo key={idx} data={val} />
+            <div key={idx} > <Card2compo data={val} /></div>
+           
           ))
         }
       </div>
