@@ -8,7 +8,8 @@ const FooterCustom = () => {
   return (
     <div className="bg-white p-4 shadow-lg flex fixed bottom-0 w-full justify-between items-center">
       <div>
-        {/* hehdoidjoidjoidhoidjoij */}
+        {/* hehdoidjoidjoidhoidjoijdhudhocjcodcojdc */}
+        {/* dcjdcojdcoijdcojdc */}
         <div
           className="flex flex-col items-center justify-center"
           onClick={() => {
