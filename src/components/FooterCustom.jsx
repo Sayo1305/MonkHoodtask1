@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-
+// jdoijdjdoicddcoidj
+// dkcpdjdpcjpodckjpodckpdok;pdkpocdkpodck
+// dcmkdcjpdcjpdcjpdjodccjkdp
 const FooterCustom = () => {
   const [clickedHome, setclickedHome] = useState(true);
   const [clickedsave, setclickedsave] = useState(false);
