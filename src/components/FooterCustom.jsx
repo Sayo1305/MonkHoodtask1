@@ -8,6 +8,7 @@ const FooterCustom = () => {
   return (
     <div className="bg-white p-4 shadow-lg flex fixed bottom-0 w-full justify-between items-center">
       <div>
+        {/* hehdoidjoidjoidhoidjoij */}
         <div
           className="flex flex-col items-center justify-center"
           onClick={() => {
@@ -17,6 +18,7 @@ const FooterCustom = () => {
             setclickedsave(false);
           }}
         >
+          {/* kjdskj  */}
           {clickedHome === true ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
